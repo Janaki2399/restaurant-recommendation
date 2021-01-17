@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.btn {
+  margin: 2rem;
+  width: 10rem;
+  height: 2.5rem;
+  border-radius: 1rem;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10rem;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 80%;
+  height: 15rem;
+  border: outset;
+  background-color: black;
+  color: white;
+}
+.detail-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+}
